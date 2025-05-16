@@ -8,7 +8,7 @@ const InterviewProductAnalytical: React.FC = () => {
   const questions = [
     {
       id: '1',
-      question: 'Your product's active users decreased by 20% this month. How would you investigate?',
+      question: "Your product's active users decreased by 20% this month. How would you investigate?",
       category: 'Metrics Analysis'
     },
     {
