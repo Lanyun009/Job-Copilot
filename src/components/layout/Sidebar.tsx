@@ -81,10 +81,10 @@ const Sidebar = () => {
       <div className="p-4 border-t border-gray-200">
         <div className="flex items-center">
           <div className="h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center">
-            <span className="text-gray-700 font-medium">LW</span>
+            <span className="text-gray-700 font-medium">LY</span>
           </div>
           <div className="ml-3">
-            <p className="text-sm font-medium">Lan Wang</p>
+            <p className="text-sm font-medium">Lan Yun</p>
             <p className="text-xs text-gray-500">Senior PM</p>
           </div>
         </div>
