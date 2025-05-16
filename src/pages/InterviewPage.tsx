@@ -3,6 +3,10 @@ import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { MessageSquare } from 'lucide-react';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import InterviewBehavioral from '@/components/interview/InterviewBehavioral';
+import InterviewProductSense from '@/components/interview/InterviewProductSense';
+import InterviewProductAnalytical from '@/components/interview/InterviewProductAnalytical';
 
 const InterviewPage: React.FC = () => {
   return (
@@ -24,18 +28,28 @@ const InterviewPage: React.FC = () => {
       <Card>
         <CardHeader>
           <CardTitle>Interview Preparation</CardTitle>
-          <CardDescription>Coming soon! This feature is under development.</CardDescription>
+          <CardDescription>Practice different types of interview questions with guided frameworks</CardDescription>
         </CardHeader>
-        <CardContent className="flex flex-col items-center justify-center py-12">
-          <div className="h-24 w-24 rounded-full bg-gray-100 flex items-center justify-center mb-6">
-            <MessageSquare className="h-12 w-12 text-gray-400" />
-          </div>
-          <h3 className="text-lg font-medium mb-2">Interview Preparation Module</h3>
-          <p className="text-sm text-gray-500 text-center max-w-md mb-6">
-            This module will help you prepare for interviews with company-specific questions, 
-            guidance on evaluation criteria, and AI-powered practice sessions with feedback.
-          </p>
-          <Button>Join Waitlist</Button>
+        <CardContent>
+          <Tabs defaultValue="behavioral" className="w-full">
+            <TabsList className="mb-4 w-full justify-start">
+              <TabsTrigger value="behavioral">Behavioral</TabsTrigger>
+              <TabsTrigger value="product-sense">Product Sense</TabsTrigger>
+              <TabsTrigger value="product-analytical">Product Analytical</TabsTrigger>
+            </TabsList>
+            
+            <TabsContent value="behavioral">
+              <InterviewBehavioral />
+            </TabsContent>
+            
+            <TabsContent value="product-sense">
+              <InterviewProductSense />
+            </TabsContent>
+            
+            <TabsContent value="product-analytical">
+              <InterviewProductAnalytical />
+            </TabsContent>
+          </Tabs>
         </CardContent>
       </Card>
     </div>
