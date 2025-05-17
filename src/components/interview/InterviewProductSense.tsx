@@ -41,33 +41,33 @@ const InterviewProductSense: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-white p-4 rounded-md shadow-sm">
-            <h4 className="font-medium text-green-700">Problem Statement</h4>
-            <p className="text-sm mt-1">Define the core problem you're trying to solve.</p>
+            <h4 className="font-medium text-green-700">1. Clarify</h4>
+            <p className="text-sm mt-1">Take your time to understand the problem with a 30s pause.</p>
           </div>
           
           <div className="bg-white p-4 rounded-md shadow-sm">
-            <h4 className="font-medium text-green-700">Clarifying Questions</h4>
-            <p className="text-sm mt-1">Ask questions to better understand the problem scope.</p>
+            <h4 className="font-medium text-green-700">2. Product Mission & Goal</h4>
+            <p className="text-sm mt-1">What problem are we solving? Why does it matter to users and the company?</p>
           </div>
           
           <div className="bg-white p-4 rounded-md shadow-sm">
-            <h4 className="font-medium text-green-700">Target Users</h4>
-            <p className="text-sm mt-1">Identify who will use this product and their needs.</p>
+            <h4 className="font-medium text-green-700">3. User Segmentation</h4>
+            <p className="text-sm mt-1">Identify user segments and their unique needs.</p>
           </div>
           
           <div className="bg-white p-4 rounded-md shadow-sm">
-            <h4 className="font-medium text-green-700">Pain Points</h4>
-            <p className="text-sm mt-1">List key user pain points (1, 2, 3) to address.</p>
+            <h4 className="font-medium text-green-700">4. User Needs & Pain Points</h4>
+            <p className="text-sm mt-1">Current user journey, friction points, and their significance.</p>
           </div>
           
           <div className="bg-white p-4 rounded-md shadow-sm">
-            <h4 className="font-medium text-green-700">Prioritization</h4>
-            <p className="text-sm mt-1">Decide which pain points to address first and why.</p>
+            <h4 className="font-medium text-green-700">5. Solutions</h4>
+            <p className="text-sm mt-1">Propose solutions that address the identified pain points.</p>
           </div>
           
           <div className="bg-white p-4 rounded-md shadow-sm">
-            <h4 className="font-medium text-green-700">Outcome & Success Metrics</h4>
-            <p className="text-sm mt-1">Define the desired outcome and how to measure success.</p>
+            <h4 className="font-medium text-green-700">6. Metrics</h4>
+            <p className="text-sm mt-1">Define how to measure the success of your solution.</p>
           </div>
         </div>
       </div>
@@ -89,50 +89,50 @@ const InterviewProductSense: React.FC = () => {
                   <CardContent className="pt-6">
                     <div className="space-y-4">
                       <div>
-                        <h4 className="text-sm font-medium text-green-700">Problem Statement</h4>
+                        <h4 className="text-sm font-medium text-green-700">1. Clarify</h4>
                         <textarea 
                           className="mt-2 w-full rounded-md border border-gray-300 p-3 text-sm min-h-[80px]" 
-                          placeholder="What is the core problem you're trying to solve?"
+                          placeholder="Take time to understand the problem (30s pause). What clarifying questions would you ask?"
                         />
                       </div>
                       
                       <div>
-                        <h4 className="text-sm font-medium text-green-700">Clarifying Questions</h4>
+                        <h4 className="text-sm font-medium text-green-700">2. Product Mission & Goal</h4>
                         <textarea 
                           className="mt-2 w-full rounded-md border border-gray-300 p-3 text-sm min-h-[80px]" 
-                          placeholder="What questions would you ask to better understand the problem?"
+                          placeholder="What problem are we solving? Why does it matter to users and the company? What alternatives exist? Why should the company care?"
                         />
                       </div>
                       
                       <div>
-                        <h4 className="text-sm font-medium text-green-700">Target Users</h4>
+                        <h4 className="text-sm font-medium text-green-700">3. User Segmentation</h4>
                         <textarea 
                           className="mt-2 w-full rounded-md border border-gray-300 p-3 text-sm min-h-[80px]" 
-                          placeholder="Who are the primary users? What are their characteristics?"
+                          placeholder="What are the broad user segments? How can we further segment into specific users? Does each segment have unique needs?"
                         />
                       </div>
                       
                       <div>
-                        <h4 className="text-sm font-medium text-green-700">Pain Points</h4>
+                        <h4 className="text-sm font-medium text-green-700">4. User Needs & Pain Points</h4>
                         <textarea 
                           className="mt-2 w-full rounded-md border border-gray-300 p-3 text-sm min-h-[80px]" 
-                          placeholder="List 3 key pain points the users experience..."
+                          placeholder="What steps would users take today? What friction exists at each step? How significant is it? Should the company care about these pain points?"
                         />
                       </div>
                       
                       <div>
-                        <h4 className="text-sm font-medium text-green-700">Prioritization</h4>
+                        <h4 className="text-sm font-medium text-green-700">5. Solutions</h4>
                         <textarea 
                           className="mt-2 w-full rounded-md border border-gray-300 p-3 text-sm min-h-[80px]" 
-                          placeholder="How would you prioritize addressing these pain points?"
+                          placeholder="What solutions would you propose to address the identified pain points?"
                         />
                       </div>
                       
                       <div>
-                        <h4 className="text-sm font-medium text-green-700">Outcome & Success Metrics</h4>
+                        <h4 className="text-sm font-medium text-green-700">6. Metrics</h4>
                         <textarea 
                           className="mt-2 w-full rounded-md border border-gray-300 p-3 text-sm min-h-[80px]" 
-                          placeholder="What's the desired outcome? How will you measure success?"
+                          placeholder="How would you measure the success of your solution?"
                         />
                       </div>
                       
