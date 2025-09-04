@@ -13,7 +13,7 @@ const Dashboard: React.FC = () => {
     <div className="space-y-6">
       <div className="flex flex-col md:flex-row gap-4 md:items-center justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-gray-900">Welcome back, Lan!</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Welcome back, John!</h2>
           <p className="text-gray-500 mt-1">Here's what's happening with your job search</p>
         </div>
         
