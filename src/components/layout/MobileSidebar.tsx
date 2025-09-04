@@ -89,7 +89,7 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
             <div className="h-8 w-8 rounded-md bg-copilot-primary flex items-center justify-center">
               <span className="text-white font-bold">CC</span>
             </div>
-            <h1 className="text-xl font-bold ml-2 text-gray-800">Career Copilot</h1>
+            <h1 className="text-xl font-bold ml-2 text-gray-800">Job Copilot</h1>
           </div>
           
           <Button variant="ghost" size="icon" onClick={onClose}>

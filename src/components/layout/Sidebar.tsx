@@ -54,7 +54,7 @@ const Sidebar = () => {
           <div className="h-8 w-8 rounded-md bg-copilot-primary flex items-center justify-center">
             <span className="text-white font-bold">CC</span>
           </div>
-          <h1 className="text-xl font-bold ml-2 text-gray-800">Career Copilot</h1>
+          <h1 className="text-xl font-bold ml-2 text-gray-800">Job Copilot</h1>
         </div>
         <p className="text-xs text-gray-500 mt-1">Your Job Search Assistant</p>
       </div>
