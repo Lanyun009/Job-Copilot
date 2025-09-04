@@ -123,7 +123,7 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
               <span className="text-gray-700 font-medium">LY</span>
             </div>
             <div className="ml-3">
-              <p className="text-sm font-medium">Lan Yun</p>
+              <p className="text-sm font-medium">John Doe</p>
               <p className="text-xs text-gray-500">Senior PM</p>
             </div>
           </div>
