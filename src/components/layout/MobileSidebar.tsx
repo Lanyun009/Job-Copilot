@@ -87,7 +87,7 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
         <div className="p-4 border-b border-gray-200 flex justify-between items-center">
           <div className="flex items-center">
             <div className="h-8 w-8 rounded-md bg-copilot-primary flex items-center justify-center">
-              <span className="text-white font-bold">CC</span>
+              <span className="text-white font-bold">JC</span>
             </div>
             <h1 className="text-xl font-bold ml-2 text-gray-800">Job Copilot</h1>
           </div>
