@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# Job Copilot 🎯
+**An AI-powered job search platform that treats your job search like a product problem.**
 
-## Project info
+🔗 **Prototype demo:** [my-job-trackerrrrrrr.lovable.app](https://my-job-trackerrrrrrr.lovable.app)
 
-**URL**: https://lovable.dev/projects/9bd5dd5c-cfa6-4c36-9db7-b8e2b891df10
+> ⚠️ **Note:** This is a product prototype built to explore UX, information architecture, and AI-integrated workflows. Authentication and live data persistence are not yet implemented. The demo showcases the product vision and design — not a production-ready system.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Why I built this
 
-**Use Lovable**
+Job searching is a high-stakes, multi-threaded operation — and most people manage it with a spreadsheet and good intentions. Between tracking applications, tailoring resumes for ATS systems, preparing for three different interview formats, and knowing who in your network to activate, the operational overhead is enormous.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9bd5dd5c-cfa6-4c36-9db7-b8e2b891df10) and start prompting.
+I built Job Copilot during my own job search after leaving Walmart. I wanted to apply the same systems thinking I'd used to build enterprise platforms — unified data, clear feedback loops, actionable signals — to the job search itself. One place. One source of truth. AI handling the repetitive analysis so I could focus on actual preparation and real conversations.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## What it does
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 📊 Dashboard
+A real-time command center for your entire job search pipeline. Tracks:
+- **ATS Success Rate** — how well your resume is passing automated screening
+- **Interview Conversion Rate** — first-round rate from applications submitted
+- **Offer Rate** — full-loop conversion
+- **Median Response Time** — how long companies are taking to respond
+- **Job Match Analysis** — profile match % across target companies, visualized
+- **Job Search Readiness Score** — composite score across resume, network, and interview prep
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 📄 Resume Optimization
+- Upload a master resume as your base
+- Get scored across Keywords, Format, and Content Quality
+- ATS optimization tab surfaces gaps before you apply
+- Template library for tailoring to specific roles
 
-Follow these steps:
+### 💼 Job Opportunities
+- Matched job listings ranked by profile fit (Skills, Experience, Location)
+- Average match rate across tracked opportunities
+- One-click job tracking directly from the opportunity view
+- Search and filter by company, role, or keywords
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🎤 Interview Prep
+Three interview formats, each with structured guidance:
+- **Behavioral** — STAR framework with practice questions by category (Leadership, Decision Making, etc.)
+- **Product Sense** — Product thinking and design questions
+- **Product Analytical** — Metrics, experimentation, and data questions
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🤝 Network Analysis
+- Track past connections by role and company
+- Identify PM connections relevant to target companies
+- "Who to Connect" recommendations based on target roles
+- Direct messaging prompts to reactivate dormant relationships
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## What I learned building it
 
-**Edit a file directly in GitHub**
+This project was as much an exercise in AI-native product design as it was a personal tool. A few things stood out:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**The dashboard is the hardest screen to design.** It's tempting to show everything. The real PM decision is choosing which 4 numbers matter most and building the information hierarchy around them. ATS score, interview conversion, offer rate, and response time ended up being the right four — they map to the actual funnel.
 
-**Use GitHub Codespaces**
+**Prompt design is product design.** The quality of AI-generated interview questions and resume feedback depended entirely on how well the inputs were structured. Poorly framed prompts produced generic outputs. This is just UX with different primitives — the same discipline applies.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**Scope is a feature.** The first version tried to automate too much. Cutting back to focus on the core tracking, scoring, and prep loop made the product significantly more usable. The Settings module is deliberately staged for a later version.
 
-## What technologies are used for this project?
+**People don't want a tool — they want confidence.** The Job Search Readiness score (78% overall, broken down by Resume/Network/Interview Prep) wasn't a technical decision. It was a product decision to give users a single number they could act on, rather than a list of tasks to complete.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Tech stack
 
-## How can I deploy this project?
+Built with **Lovable**, **React**, **TypeScript**, **Supabase**, **Tailwind CSS**, and **shadcn-ui**.
 
-Simply open [Lovable](https://lovable.dev/projects/9bd5dd5c-cfa6-4c36-9db7-b8e2b891df10) and click on Share -> Publish.
+Designed, prompted, and iterated by a product manager — not an engineer.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## Status
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Prototype** — UI and product architecture complete. Authentication and live data persistence in progress. Built to validate the product concept and demonstrate AI-native PM workflow thinking.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## About the builder
+
+Enterprise PM with 8+ years expereinces, specializing in large-scale platform modernization, data architecture, and AI-integrated product design. This project is part of a deliberate transition into AI-native product development.
+
+[LinkedIn](https://www.linkedin.com/in/lan-yun/) · [GitHub](https://github.com/Lanyun009)
+
