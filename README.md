@@ -1,7 +1,7 @@
 # Job Copilot 🎯
 **An AI-powered job search platform that treats your job search like a product problem.**
 
-🔗 **Prototype demo:** [my-job-copilot.lovable.app](https://my-job-copilot.lovable.app)
+🔗 **Prototype demo:** [myjobcopilot.lovable.app](https://myjobcopilot.lovable.app)
 
 > ⚠️ **Note:** This is a product prototype built to explore UX, information architecture, and AI-integrated workflows. Authentication and live data persistence are not yet implemented. The demo showcases the product vision and design — not a production-ready system.
 
